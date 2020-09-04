@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.grott.example</groupId>
     <artifactId>maven-github-release</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>14</maven.compiler.release>
@@ -36,7 +36,8 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/${git.repository}.git</developerConnection>
-    </scm>
+      <tag>v1.0</tag>
+  </scm>
     <distributionManagement>
         <repository>
             <id>github</id>
